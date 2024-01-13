@@ -70,15 +70,53 @@
             </tr>
         </table>
     </div>
-    <div id="form">
+    <div id="form-1">
         <h2>Feedback</h2>
-        Name: <input type="text" name="FirstName"><br>
+        <form>
+        <label for="name">Name:</label>
+        <input type="text"  id="name" name="name" required><br>
         <br>
-        Email:<input type="email" name="email"><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>
         <br>
-        Age:<input type="number" name="age"><br>
+        <label>Age:</label>
+        <input type="number" name="age"><br>
         <br>
-
+        <label>Favourite Attraction</label>
+        <select>
+            <option>Atlantis Tower</option>
+            <option>Deep Sea Muesuem</option>
+            <option>The Oceanic Bridge</option>
+        </select>
+        <br>
+        <br>
+        <label>Comments:</label>
+        <textarea></textarea>
+        <br>
+        <br>
+        <label>NewsLetter:</label>        
+        <input type="checkbox">Subscribe to our NewsLetter
+        <br>
+        <br>
+        <input type="submit">
+    </form>        
     </div>
+    <div>
+        <h2>What Citizen Say</h2>
+        <ul>
+            <li type="square">"Atlantica beaches are paradise on Earth.Nothing beats the sunset here!"-Alex</li>
+            <li type="square">"The blend of modern skyscrapers and the oceanic history is mesmerizing"-Atlantica</li>
+        </ul>
+    </div>
+    <div id="Contact-us">
+        <h2>Contact Us</h2>
+        <p><i>Atlantica Tourism Office</i></p>
+        <p><i>100 Ocean Drive, Atlantica</i></p>
+        <label><i>Email:</i></label>
+        <a href="mail to:info@atlantica.com"><i>info@atlantica.com</i></a>
+        <br>
+        <label><i>Phone:123-456-7890</i></label>
+    </div>
+    <p>@ 2023 Atlantica Tourism.Dive into Dreams!</p>
 </body>
 </html>
